@@ -1,4 +1,4 @@
-Guia básio para iniciantes
+Guia básico para iniciantes
 ==========
 
 GITHUB
@@ -33,7 +33,7 @@ Observação: Recomendo que sempre que iniciar um projeto crie o arquivo README 
 ```
 touch README
 ```
-Observação: Para edita-lo basta acessar a sua pasta e abri-lo com algum editor de texto e inserir algums comentários e instruções que achar necessário.
+Observação: Para edita-lo basta acessar a sua pasta e abri-lo com algum editor de texto e inserir alguns comentários e instruções que achar necessário.
 
 2. Dentro da pasta da aplicação digite o seguinte comando:
 
@@ -42,7 +42,7 @@ $ git init
 ```
 Pronto, inicializado o  dessa aplicação! 
 
-Observação: Nosso arquivos ainda não foram versioados! Apenas iniciamos o aplicativo git.
+Observação: Nosso arquivos ainda não foram versionados! Apenas iniciamos o aplicativo git.
 
 3. Bem, agora vamos adicionar os arquivos no git:
 
@@ -56,7 +56,7 @@ ou
 git add <Nome do arquivo> (sem as aberturas e fechamentos)
 ```
 
-Observação: Recomendo o uso do comando acima caso seja deseja versionar um arquivo em especifico.
+Observação: Recomendo o uso do comando acima caso deseje versionar um arquivo em especifico.
 
 4. Agora é hora de commitar suas modificações. Essas modificações serão inseridas no histórico do projeto através do comando:
 
@@ -64,7 +64,7 @@ Observação: Recomendo o uso do comando acima caso seja deseja versionar um arq
 git commit -m "Primeiro commit"
 ```
 
-5. Feito isso, já podemos conectar no o repositório local com a conta GitHub. Para isso, precisamos configurar um controle remoto para o repositório.
+5. Feito isso, já podemos conectar o repositório local com a conta GitHub. Para isso, precisamos configurar um controle remoto para o repositório.
 
 Exemplo:
 
@@ -96,14 +96,14 @@ Por exemplo:
 
 Alteramos o documento X.html.
 
-Ao digitarmos o
+Ao digitarmos o:
 
 
 ```
 git status
 ```
 
-O Git apresentará o que os arquivos que foram modificados.
+O Git apresentará que arquivos que foram modificados.
 
 
 Para enviar essa atualização para o repositório repetimos os mesmos passos listado mais cima:
