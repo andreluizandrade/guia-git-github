@@ -1,0 +1,138 @@
+Guia básio para iniciantes
+==========
+
+GITHUB
+----------
+
+A primeira coisa a ser feira é criar um repositório no github.com.
+
+1. Acesse sua conta do [GitHub](http://www.github.com)
+
+2. Clique em criar [Novo diretório]:
+
+3. Adicione um nome ao seu projeto
+ 
+Observação: Deixe desmarcada a opção "Initialize this repository with a README".
+
+4. Clique em "Create Repository".
+
+Observação: Você será redirecionado para uma nova página.
+
+GIT
+----------
+Após criar o repositório acesse terminal (Ctrl + Atl + T)
+
+1. Acesse a pasta da sua aplicaçao:
+
+```
+$ cd <nome_do_diretorio>
+```
+
+Observação: Recomendo que sempre que iniciar um projeto crie o arquivo README (ao pé da letra LEIA-ME). Para cria-lo, basta inserir o seguinte comando:
+
+```
+touch README
+```
+Observação: Para edita-lo basta acessar a sua pasta e abri-lo com algum editor de texto e inserir algums comentários e instruções que achar necessárias.
+
+2. Dentro da pasta da aplicação digite o seguinte comando:
+
+```
+$ git init
+```
+Pronto, inicializado o  dessa aplicação! 
+
+Observação: Nosso arquivos ainda não foram versioados! Apenas iniciamos o aplicativo git.
+
+3. Bem, agora vamos adicionar os arquivos no git:
+
+```
+git add . (todos os arquivos)
+```
+
+ou 
+
+```
+git add <Nome do arquivo> (sem as aberturas e fechamentos)
+```
+
+Observação: Recomendo o uso do comando acima caso seja deseja versionar um arquivo em especifico.
+
+4. Agora é hora de commitar suas modificações. Essas modificações serão inseridas no histórico do projeto através do comando:
+
+```
+git commit -m "Primeiro commit"
+```
+
+5. Feito isso, já podemos conectar no o repositório local com a conta GitHub. Para isso, precisamos configurar um controle remoto para o repositório.
+
+Exemplo:
+
+```
+git remote add origin https://github.com/username/Ola-Mundo.git 
+```
+
+Observação: Só precisamos inserir esse comando uma única vez.
+
+5. E para finalizar, o último comando:
+
+```
+git push origin master
+```
+
+Ao inserir o comando acima, será solicitado seu login e senha do GitHub.
+
+
+GIT - Alteração/Atualização de documento
+----------
+
+Caso tenha atualizado alguma parte da sua aplicatição, e você queira compartilhar essa atualização com a comunidade, você anteriormente deverá se certificar do status desta operação, para isso temos um comando:
+
+```
+git status
+```
+
+Por exemplo:
+
+Alteramos o documento X.html.
+
+Ao digitarmos o
+
+
+```
+git status
+```
+
+O Git apresentará o que os arquivos que foram modificados.
+
+
+Para enviar essa atualização para o repositório repetimos os mesmos passos listado mais cima:
+
+```
+git add X.html
+```
+
+Depois 
+
+```
+git git commit -m "Alteração no arquivo X.html"
+```
+
+```
+git push origin master
+```
+
+Novamente será solicitado seu login e senha do GitHub.
+
+FIM!
+
+Ajuda
+----------
+Se você quiser ajudar a melhorar este guia, escrevendo, corrigindo ou aprimorando a experiência, por favor, faça um FORK do projeto e mãos na massa.
+
+
+
+
+
+
+
