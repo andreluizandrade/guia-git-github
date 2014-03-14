@@ -1,4 +1,4 @@
-Guia básio para iniciantes
+Guia básico para iniciantes
 ==========
 
 GITHUB

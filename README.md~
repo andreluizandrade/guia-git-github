@@ -22,7 +22,7 @@ GIT
 ----------
 Após criar o repositório acesse terminal (Ctrl + Atl + T)
 
-5. Acesse a pasta da sua aplicaçao:
+1. Acesse a pasta da sua aplicaçao:
 
 ```
 $ cd <nome_do_diretorio>
