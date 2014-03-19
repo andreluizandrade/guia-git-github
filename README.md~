@@ -106,7 +106,7 @@ git status
 O Git apresentará que arquivos que foram modificados.
 
 
-Para enviar essa atualização para o repositório repetimos os mesmos passos listado mais cima:
+Para enviar essa atualização para o repositório repetimos os mesmos passos listados mais cima:
 
 ```
 git add X.html

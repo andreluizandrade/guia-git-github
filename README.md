@@ -130,3 +130,11 @@ Ajuda
 ----------
 Se você quiser ajudar a melhorar este guia, escrevendo, corrigindo ou aprimorando a experiência, por favor, faça um FORK do projeto e mãos na massa.
 
+Avançando
+----------
+Caso você esteja super ancioso para aprender mais e mais sobre o Git, recomendo a leitura do livro do [Git](http://git-scm.com/book/pt-br/), em português.
+
+Caso queria praticar um pouco, recomendo o [TryGit](http://try.github.io/levels/1/challenges/1).
+
+Abraço!
+
